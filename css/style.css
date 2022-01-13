@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #c0d6e3, #9094d5);
+    width: 100vw;
+    height: 100vh;
+}
