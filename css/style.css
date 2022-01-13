@@ -5,10 +5,23 @@
 }
 html {
     font-size: 62.5%;
+    font-family: "Anton", sans-serif;
 }
 
 body {
-    background-image: linear-gradient(to bottom, #c0d6e3, #9094d5);
-    width: 100vw;
     height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    clip-path: url(#text-path);
+    position: absolute;
+    width: 600px;
+    transform: translateZ(0);
+}
+
+video {
+    width: 100%;
+
 }
